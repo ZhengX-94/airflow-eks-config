@@ -7,7 +7,7 @@ metadata:
     flux.weave.works/automated: "true"
 spec:
   releaseName: airflow-dev
-    # serviceAccountName: app
+    serviceAccountName: app
   chart:
     repository: https://edwinguo.github.io/airflow-eks-helm-chart
     name: airflow
